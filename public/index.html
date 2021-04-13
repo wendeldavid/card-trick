@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/game.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+
+</head>
+<body onload="main()">
+
+
+<!-- 
+    <div id="card1" class="card-s1s"></div>
+    <div id="card2" class="card-s2s"></div> 
+-->
+
+    <div id="game">
+
+        <h3>Instruções</h3>
+        <ul>
+            <li>escolha uma carta</li>
+            <li>clique na coluna em que sua carta está</li>
+            <li>repita mais 2 vezes</li>
+            <li>eu adivinharei a carta que você escolheu!!!</li>
+        </ul>
+
+        <table id="deck">
+            <tr class="card-header pointer">
+                <td class="card-col" onclick="restack(0)">col 1</td>
+                <td class="card-col" onclick="restack(1)">col 2</td>
+                <td class="card-col" onclick="restack(2)">col 3</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div id="0:0" class="card"></div>
+                </td>
+                <td>
+                    <div id="0:1" class="card"></div>
+                </td>
+                <td>
+                    <div id="0:2" class="card"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="1:0" class="card"></div>
+                </td>
+                <td>
+                    <div id="1:1" class="card"></div>
+                </td>
+                <td>
+                    <div id="1:2"class="card"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="2:0" class="card"></div>
+                </td>
+                <td>
+                    <div id="2:1" class="card"></div>
+                </td>
+                <td>
+                    <div id="2:2" class="card"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="3:0" class="card"></div>
+                </td>
+                <td>
+                    <div id="3:1" class="card"></div>
+                </td>
+                <td>
+                    <div id="3:2" class="card"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="4:0" class="card"></div>
+                </td>
+                <td>
+                    <div id="4:1" class="card"></div>
+                </td>
+                <td>
+                    <div id="4:2" class="card"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="5:0" class="card"></div>
+                </td>
+                <td>
+                    <div id="5:1" class="card"></div>
+                </td>
+                <td>
+                    <div id="5:2" class="card"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="6:0" class="card"></div>
+                </td>
+                <td>
+                    <div id="6:1" class="card"></div>
+                </td>
+                <td>
+                    <div id="6:2" class="card"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="output">
+        <h1>A carta que você escolheu é a...</h1>
+        
+            <div id="card-output" class="card"></div>
+        
+    </div>
+
+</body>
+</html>
