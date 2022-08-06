@@ -39,6 +39,9 @@ public class Deck {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         Stack<Card>[] cols = new Stack[]{col1, col2, col3};
+        sb.append("---------------").append("\n");
+        sb.append(" c1").append(" |  ").append("c2").append(" | ").append(" c3").append("\n");
+        sb.append("---------------").append("\n");
         for (int i = 0; i < col1.size(); i++) {
             Card card1 = cols[0].get(i);
             Card card2 = cols[1].get(i);
@@ -47,6 +50,7 @@ public class Deck {
             sb.append(card1).append(" | ").append(card2).append(" | ").append(card3);
             sb.append('\n');
         }
+        sb.append("---------------").append("\n");
         return sb.toString();
     }
 }

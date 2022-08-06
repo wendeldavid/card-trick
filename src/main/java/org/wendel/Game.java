@@ -28,7 +28,7 @@ public class Game {
     public void run() {
         while (runCycle()) {
         }
-        Card cardGuessed = allCards.get(11);
+        Card cardGuessed = allCards.get(10);
         System.out.println("The chosen card: " + cardGuessed);
     }
 
@@ -59,7 +59,7 @@ public class Game {
             allCards.addAll(deck.getColumn(1));
             allCards.addAll(deck.getColumn(2));
             allCards.addAll(deck.getColumn(3));
-        } else if (choice == 2) {
+        } else if (choice == 3) {
             allCards.addAll(deck.getColumn(1));
             allCards.addAll(deck.getColumn(3));
             allCards.addAll(deck.getColumn(2));
