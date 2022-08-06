@@ -20,9 +20,7 @@ public class Card {
 
     @Override
     public String toString() {
-        return "Card{" +
-                "number=" + number +
-                ", suit=" + suit +
-                '}';
+        String prefix = number < 10 ? " " : "";
+        return prefix + number + suit;
     }
 }

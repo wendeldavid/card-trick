@@ -4,7 +4,6 @@ import org.wendel.card.Card;
 import org.wendel.card.Suit;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -22,6 +21,6 @@ public class Main {
                 allCards.add(new Card(i, suit));
             }
         }
-        return Collections.unmodifiableList(allCards);
+        return allCards;
     }
 }
