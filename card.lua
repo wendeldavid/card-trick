@@ -1,0 +1,2 @@
+local number;
+local suit;
