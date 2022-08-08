@@ -1,7 +1,7 @@
-local spades = utf8.char(2660)
-local clubs = utf8.char(2663)
-local hearts = utf8.char(2665)
-local diamond = utf8.char(2666)
+local spades = 's'
+local clubs = 'c'
+local hearts = 'h'
+local diamond = 'd'
 
 local suits = {
     spades = spades,
