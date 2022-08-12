@@ -6,7 +6,7 @@ local diamond = 'd'
 local suits = {
     spades = spades,
     clubs = clubs,
-    heards = hearts,
+    hearts = hearts,
     diamond = diamond,
 }
 
