@@ -1,0 +1,68 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "cards-tileset.tsx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "card-tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "cards-deck.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 104,
+                "y": 719.5
+            }
+        },
+        "cards-deck.tmx#cards-tileset": {
+            "scaleInEditor": 1
+        },
+        "cards-tileset.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "sprite-sheet.tmx": {
+            "scale": 0.624860646599777,
+            "selectedLayer": -1,
+            "viewCenter": {
+                "x": 656.1462979482604,
+                "y": 332.07404103479035
+            }
+        }
+    },
+    "last.exportedFilePath": "/home/WENDEL.PRZYGODA/git/card-trick/assets",
+    "last.imagePath": "/home/WENDEL.PRZYGODA/git/card-trick/assets",
+    "map.height": 7,
+    "map.lastUsedExportFilter": "Lua files (*.lua)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 114,
+    "map.tileWidth": 99,
+    "map.width": 3,
+    "openFiles": [
+        "cards-tileset.tsx"
+    ],
+    "project": "card-trick-project.tiled-project",
+    "recentFiles": [
+        "cards-deck.tmx",
+        "cards-tileset.tsx",
+        "sprite-sheet.tmx",
+        "card-tileset.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 114,
+        "width": 99
+    }
+}

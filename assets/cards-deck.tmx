@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="3" height="7" tilewidth="99" tileheight="114" infinite="0" nextlayerid="3" nextobjectid="9">
+ <editorsettings>
+  <export target="cards-deck.lua" format="lua"/>
+ </editorsettings>
+ <layer id="1" name="card-layer" width="3" height="7">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="obj-card-layer">
+  <object id="1" class="c1" x="0" y="0" width="99" height="114"/>
+  <object id="2" class="c2" x="100" y="0" width="99" height="114"/>
+  <object id="3" class="c3" x="199" y="0" width="99" height="114"/>
+  <object id="4" class="c1" x="0" y="115" width="99" height="114"/>
+  <object id="5" class="c2" x="100" y="115" width="99" height="114"/>
+  <object id="6" class="c3" x="199" y="115" width="99" height="114"/>
+  <object id="7" class="c1" x="0" y="229" width="99" height="114"/>
+  <object id="8" class="c2" x="100" y="229" width="99" height="114"/>
+  <object id="9" class="c3" x="199" y="229" width="99" height="114"/>
+  <object id="10" class="c1" x="0" y="343" width="99" height="114"/>
+  <object id="11" class="c2" x="100" y="343" width="99" height="114"/>
+  <object id="12" class="c3" x="199" y="343" width="99" height="114"/>
+  <object id="13" class="c1" x="0" y="457" width="99" height="114"/>
+  <object id="14" class="c2" x="100" y="457" width="99" height="114"/>
+  <object id="15" class="c3" x="199" y="457" width="99" height="114"/>
+  <object id="16" class="c1" x="0" y="571" width="99" height="114"/>
+  <object id="17" class="c2" x="100" y="571" width="99" height="114"/>
+  <object id="18" class="c3" x="199" y="571" width="99" height="114"/>
+  <object id="19" class="c1" x="0" y="685" width="99" height="114"/>
+  <object id="20" class="c2" x="100" y="685" width="99" height="114"/>
+  <object id="21" class="c3" x="199" y="685" width="99" height="114"/>
+ </objectgroup>
+</map>
