@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "cards-tileset.tsx",
+    "activeFile": "cards-deck.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -21,7 +21,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 104,
-                "y": 719.5
+                "y": -0.5
             }
         },
         "cards-deck.tmx#cards-tileset": {
@@ -50,7 +50,7 @@
     "map.tileWidth": 99,
     "map.width": 3,
     "openFiles": [
-        "cards-tileset.tsx"
+        "cards-deck.tmx"
     ],
     "project": "card-trick-project.tiled-project",
     "recentFiles": [

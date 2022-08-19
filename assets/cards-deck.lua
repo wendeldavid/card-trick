@@ -57,7 +57,7 @@ return {
       objects = {
         {
           id = 1,
-          name = "",
+          name = "1.1",
           class = "c1",
           shape = "rectangle",
           x = 0,
@@ -70,7 +70,7 @@ return {
         },
         {
           id = 2,
-          name = "",
+          name = "2.1",
           class = "c2",
           shape = "rectangle",
           x = 100,
@@ -83,7 +83,7 @@ return {
         },
         {
           id = 3,
-          name = "",
+          name = "3.1",
           class = "c3",
           shape = "rectangle",
           x = 199,
@@ -96,7 +96,7 @@ return {
         },
         {
           id = 4,
-          name = "",
+          name = "1.2",
           class = "c1",
           shape = "rectangle",
           x = 0,
@@ -109,7 +109,7 @@ return {
         },
         {
           id = 5,
-          name = "",
+          name = "3.2",
           class = "c2",
           shape = "rectangle",
           x = 100,
@@ -122,7 +122,7 @@ return {
         },
         {
           id = 6,
-          name = "",
+          name = "4.2",
           class = "c3",
           shape = "rectangle",
           x = 199,
@@ -135,7 +135,7 @@ return {
         },
         {
           id = 7,
-          name = "",
+          name = "1.3",
           class = "c1",
           shape = "rectangle",
           x = 0,
@@ -148,7 +148,7 @@ return {
         },
         {
           id = 8,
-          name = "",
+          name = "3.3",
           class = "c2",
           shape = "rectangle",
           x = 100,
@@ -161,7 +161,7 @@ return {
         },
         {
           id = 9,
-          name = "",
+          name = "4.3",
           class = "c3",
           shape = "rectangle",
           x = 199,
@@ -174,7 +174,7 @@ return {
         },
         {
           id = 10,
-          name = "",
+          name = "1.4",
           class = "c1",
           shape = "rectangle",
           x = 0,
@@ -187,7 +187,7 @@ return {
         },
         {
           id = 11,
-          name = "",
+          name = "2.4",
           class = "c2",
           shape = "rectangle",
           x = 100,
@@ -200,7 +200,7 @@ return {
         },
         {
           id = 12,
-          name = "",
+          name = "3.4",
           class = "c3",
           shape = "rectangle",
           x = 199,
@@ -213,7 +213,7 @@ return {
         },
         {
           id = 13,
-          name = "",
+          name = "1.5",
           class = "c1",
           shape = "rectangle",
           x = 0,
@@ -226,7 +226,7 @@ return {
         },
         {
           id = 14,
-          name = "",
+          name = "2.5",
           class = "c2",
           shape = "rectangle",
           x = 100,
@@ -239,7 +239,7 @@ return {
         },
         {
           id = 15,
-          name = "",
+          name = "3.5",
           class = "c3",
           shape = "rectangle",
           x = 199,
@@ -252,7 +252,7 @@ return {
         },
         {
           id = 16,
-          name = "",
+          name = "1.6",
           class = "c1",
           shape = "rectangle",
           x = 0,
@@ -265,7 +265,7 @@ return {
         },
         {
           id = 17,
-          name = "",
+          name = "2.6",
           class = "c2",
           shape = "rectangle",
           x = 100,
@@ -278,7 +278,7 @@ return {
         },
         {
           id = 18,
-          name = "",
+          name = "3.6",
           class = "c3",
           shape = "rectangle",
           x = 199,
@@ -291,7 +291,7 @@ return {
         },
         {
           id = 19,
-          name = "",
+          name = "1.7",
           class = "c1",
           shape = "rectangle",
           x = 0,
@@ -304,7 +304,7 @@ return {
         },
         {
           id = 20,
-          name = "",
+          name = "2.7",
           class = "c2",
           shape = "rectangle",
           x = 100,
@@ -317,7 +317,7 @@ return {
         },
         {
           id = 21,
-          name = "",
+          name = "3.7",
           class = "c3",
           shape = "rectangle",
           x = 199,
