@@ -51,10 +51,6 @@ function love.draw()
         love.graphics.print("Current FPS: "..tostring(love.timer.getFPS()), 10, 10)
         love.graphics.print(string.format("Average frame time: %.3f ms", 1000 * love.timer.getAverageDelta()), 10, 25)
 
-        -- Draw the map and all objects within
-        -- love.graphics.setColor(1, 1, 1)
-        -- map:draw()
-
         love.graphics.push('all')
 
             love.graphics.setColor(1, 0, 0)
