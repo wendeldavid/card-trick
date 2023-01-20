@@ -6,6 +6,20 @@ var deck = new Array(new Array());
 
 var cycle = 0;
 
+
+detectLanguage = function() {
+    var lang = navigator.language;
+    if (lang.toLowerCase().startsWith("en")) {
+        document.getElementById("instructions_title").innerHTML = "Instructions";
+        
+        document.getElementById("instructions_l1").innerHTML = "choose your card";
+        document.getElementById("instructions_l2").innerHTML = "click or touch over the column that your card is in";
+        document.getElementById("instructions_l3").innerHTML = "repeat the 2 more times";
+        document.getElementById("instructions_l4").innerHTML = "I will pick up the card that you choose in your head!";
+        document.getElementById("result_text").innerHTML = "Your choice was";
+    }
+}
+
 populateCards = function() {
 
     for (var i = 0; i < 4; i++) {
@@ -174,6 +188,7 @@ draw = function() {
 }
 
 main = function() {
+    detectLanguage();
 
     populateCards();
     pickCards();
