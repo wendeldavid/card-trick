@@ -1,5 +1,7 @@
 package org.wendel.card;
 
+import java.util.Objects;
+
 public class Card {
 
     private final int number;
@@ -22,5 +24,18 @@ public class Card {
     public String toString() {
         String prefix = number < 10 ? " " : "";
         return prefix + number + suit;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Card card = (Card) o;
+        return number == card.number && suit == card.suit;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(number, suit);
     }
 }

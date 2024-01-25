@@ -32,7 +32,7 @@ public class Game {
         System.out.println("The chosen card: " + cardGuessed);
     }
 
-    private int pickCard() {
+    protected int pickCard() {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("choose a column: ");
         int choice = keyboard.nextInt();
@@ -66,7 +66,7 @@ public class Game {
         }
     }
 
-    private Deck sortToColumns() {
+    protected Deck sortToColumns() {
         Stack<Card> col1 = new Stack<>();
         Stack<Card> col2 = new Stack<>();
         Stack<Card> col3 = new Stack<>();

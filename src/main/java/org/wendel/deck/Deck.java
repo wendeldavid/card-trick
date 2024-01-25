@@ -2,6 +2,7 @@ package org.wendel.deck;
 
 import org.wendel.card.Card;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 import java.util.stream.Collectors;
@@ -31,8 +32,7 @@ public class Deck {
             throw new RuntimeException("invalid choice: " + i);
         }
 
-        return column.stream()
-                .collect(Collectors.toList());
+        return new ArrayList<>(column);
     }
 
     @Override
