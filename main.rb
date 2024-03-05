@@ -1,3 +1,5 @@
+require 'debug'
+
 require_relative 'game'
 require_relative 'card'
 require_relative 'suit'
@@ -14,7 +16,8 @@ class Main
         end
 
         game = Game.new(all_cards)
-        puts game.to_s
+        # puts game.to_s
+
            
     end
 end
