@@ -50,7 +50,7 @@ class Game
         elsif choice == 3
             @all_cards.concat(deck.col1)
             @all_cards.concat(deck.col3)
-            @all_cards.concat(deck.col1)
+            @all_cards.concat(deck.col2)
         end
     end
 
