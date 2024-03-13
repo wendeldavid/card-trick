@@ -29,7 +29,7 @@ func (d deck) String() string {
 	allStrings += " c1 |  c2 |  c3" + "\n"
 	allStrings += separator
 
-	for i := 1; i < len(d.col1); i++ {
+	for i := 0; i < len(d.col1); i++ {
 		card1 := d.col1[i]
 		card2 := d.col2[i]
 		card3 := d.col3[i]

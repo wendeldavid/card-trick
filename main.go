@@ -1,11 +1,10 @@
 package main
 
-import "fmt"
-
 func main() {
 	allCards := populateCards()
 
-	fmt.Print(allCards)
+	game := game{}
+	game.start(allCards)
 }
 
 func populateCards() []card {
