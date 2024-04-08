@@ -1,0 +1,7 @@
+version: '3'
+services:
+  card-trick:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    command: ["./card-trick"]
