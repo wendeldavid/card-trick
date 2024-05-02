@@ -2,7 +2,7 @@
 #ifndef SUIT_HPP
 #define SUIT_HPP
 
-enum Suit {
+enum esuit: unsigned char {
     Hearts = 'H',
     Diamonds = 'D',
     Clubs = 'C',

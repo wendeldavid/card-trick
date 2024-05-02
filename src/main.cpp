@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "card/Suit.cpp" // Include the Suit.cpp file
+#include "card/suit.cpp" // Include the Suit.cpp file
 
 class Main {
 private:
@@ -13,7 +13,7 @@ public:
         // Initialize the deck of cards
         for (const auto& suit : suits) {
             for (const auto& rank : ranks) {
-                deck.push_back(rank + " of " + suit.getSuit();
+                deck.push_back(rank + " of " + suit.getSuit());
             }
         }
     }
