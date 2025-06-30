@@ -1,6 +1,0 @@
-class Deck{
-
-public:
-private:
-
-};
