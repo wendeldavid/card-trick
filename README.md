@@ -12,6 +12,8 @@ These are the branches so far:
 
 [kotlin](https://github.com/wendeldavid/card-trick/tree/kotlin)
 
-[ruby](https://github.com/wendeldavid/card-trick/tree/lua)
+[lua](https://github.com/wendeldavid/card-trick/tree/lua)
 
-[lua](https://github.com/wendeldavid/card-trick/tree/ruby)
+[ruby](https://github.com/wendeldavid/card-trick/tree/ruby)
+
+[c++](https://github.com/wendeldavid/card-trick/tree/cpp)
