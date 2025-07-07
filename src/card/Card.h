@@ -1,6 +1,8 @@
 #ifndef CARD_H
 #define CARD_H
 
+#include <string>
+
 #include "Suit.h"
 
 namespace card {
@@ -16,12 +18,17 @@ private:
     Suit cardSuit;
 
 public:
-    int getValue() const {
+    [[nodiscard]] int getValue() const {
         return value;
     }
 
-    Suit getSuit() const {
+    [[nodiscard]] Suit getSuit() const {
         return cardSuit;
+    }
+
+    [[nodiscard]] std::string toString() const {
+        const auto prefix  = value < 10 ? " " : "";
+        return prefix + std::to_string(value) + Suit::toString(cardSuit.getType());
     }
 };
 

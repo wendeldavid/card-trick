@@ -21,7 +21,7 @@ public:
         return type;
     }
 
-    static std::string toString(Type type) {
+    static std::string toString(const Type type) {
         switch (type) {
             case Type::Hearts: return "♥";
             case Type::Diamonds: return "♦";
