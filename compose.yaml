@@ -1,0 +1,7 @@
+﻿services:
+  card-trick:
+    image: card-trick
+    build:
+      context: .
+      dockerfile: Dockerfile
+
