@@ -49,14 +49,14 @@ private bool RunCycle()
     {
         var deck = SortToColumns();
 
-        int choice = PickCard();
+        var choice = PickCard();
         
         RejoinCards(choice, deck);
         
         return ++_cycle < 2;
     }
     
-    private int PickCard()
+    private static int PickCard()
     {
         Console.Write("Choose a column (1, 2 ou 3): ");
         string? input = Console.ReadLine();
@@ -67,21 +67,29 @@ private bool RunCycle()
 
     private void RejoinCards(int choice, Deck deck)
     {
-        if (choice == 1)
+        switch (choice)
         {
-            foreach (var card in deck.Col2) _allCards.Add(card);
-            foreach (var card in deck.Col1) _allCards.Add(card);
-            foreach (var card in deck.Col3) _allCards.Add(card);
-        } else if (choice == 2)
-        {
-            foreach (var card in deck.Col1) _allCards.Add(card);
-            foreach (var card in deck.Col2) _allCards.Add(card);
-            foreach (var card in deck.Col3) _allCards.Add(card);
-        } else if (choice == 3)
-        {
-            foreach (var card in deck.Col1) _allCards.Add(card);
-            foreach (var card in deck.Col3) _allCards.Add(card);
-            foreach (var card in deck.Col2) _allCards.Add(card);
+            case 1:
+            {
+                foreach (var card in deck.Col2) _allCards.Add(card);
+                foreach (var card in deck.Col1) _allCards.Add(card);
+                foreach (var card in deck.Col3) _allCards.Add(card);
+                break;
+            }
+            case 2:
+            {
+                foreach (var card in deck.Col1) _allCards.Add(card);
+                foreach (var card in deck.Col2) _allCards.Add(card);
+                foreach (var card in deck.Col3) _allCards.Add(card);
+                break;
+            }
+            case 3:
+            {
+                foreach (var card in deck.Col1) _allCards.Add(card);
+                foreach (var card in deck.Col3) _allCards.Add(card);
+                foreach (var card in deck.Col2) _allCards.Add(card);
+                break;
+            }
         }
     }
 
@@ -120,11 +128,11 @@ public static class ListExtensions
 
     public static void Shuffle<T>(this IList<T> list)
     {
-        int n = list.Count;
+        var n = list.Count;
         while (n > 1)
         {
             n--;
-            int k = Rng.Next(n + 1);
+            var k = Rng.Next(n + 1);
             (list[k], list[n]) = (list[n], list[k]);
         }
     }

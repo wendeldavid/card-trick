@@ -3,7 +3,5 @@
 using card_trick;
 using card_trick.card;
 
-
-
-Game game = new Game();
+var game = new Game();
 game.Run();
