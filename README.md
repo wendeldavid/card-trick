@@ -17,3 +17,5 @@ These are the branches so far:
 [ruby](https://github.com/wendeldavid/card-trick/tree/ruby)
 
 [c++](https://github.com/wendeldavid/card-trick/tree/cpp)
+
+[c#](https://github.com/wendeldavid/card-trick/tree/c%23)
