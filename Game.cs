@@ -59,12 +59,25 @@ private bool RunCycle()
     private static int PickCard()
     {
         Console.Write("Choose a column (1, 2 ou 3): ");
-        string? input = Console.ReadLine();
-        int choice = int.Parse(input ?? string.Empty);
+
+        string? input = ReadInput();
+        
+        var choice = int.Parse(input!);
         Console.WriteLine($"escolha: {choice}");
         return choice;
     }
 
+    private static string ReadInput()
+    {
+        string? input = Console.ReadLine();
+
+        while (input == null || input == "s")
+        {
+            input = Console.ReadLine();
+        }
+        
+        return input;
+    }
     private void RejoinCards(int choice, Deck deck)
     {
         switch (choice)
